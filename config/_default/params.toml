@@ -16,7 +16,7 @@
 theme = "dark_custom"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
@@ -112,9 +112,11 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "", link = "https://twitter.com/saforem2"},
-  {icon = "github", icon_pack = "fab", name = "", link = "https://github.com/saforem2"},
-  ]
+# {icon = "paper-plane", icon_pack = "fab", name = "Send me an email", link = "mailto:saforem2@gmail.com"},
+{icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/saforem2"},
+# {icon = "", icon_pack = "", name = "", link = "" },
+# {icon = "github", icon_pack = "fab", name = "codes", link = "https://github.com/saforem2"},
+]
 
 ############################
 ## Social
