@@ -1,5 +1,8 @@
-+++
-# Homepage
-type = "widget_page"
-headless = true  # Homepage is headless, other widget pages are not.
-+++
+---
+type: widget_page
+headless: true
+design:
+  background:
+    color: '#1c1c1c'
+    text_color_light: true
+---
